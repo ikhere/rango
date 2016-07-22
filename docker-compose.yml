@@ -1,0 +1,21 @@
+version: '2'
+services:
+  db:
+    image: postgres
+  web:
+    build: .
+    image: webapp
+    command: bash -c "sleep 3 && ./manage.py migrate && ./manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+  anaconda:
+    image: webapp
+    ports:
+      - "19360:19360"
+    entrypoint: /opt/anaconda/anaconda_server/docker/start python 19360 anaconda 
+    depends_on:
+      - web
