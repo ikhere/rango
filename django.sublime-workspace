@@ -96,22 +96,6 @@
 			}
 		},
 		{
-			"file": "docker-compose.yml",
-			"settings":
-			{
-				"buffer_size": 439,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "Dockerfile",
-			"settings":
-			{
-				"buffer_size": 226,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "rango/views.py",
 			"settings":
 			{
@@ -276,6 +260,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/khanib/docker/django/Dockerfile",
+		"/C/Users/khanib/docker/django/docker-compose.yml",
 		"/C/Ibad/Portable/Sublime Text/Data/Packages/User/Anaconda.sublime-settings",
 		"/C/Users/khanib/docker/django/django.sublime-project",
 		"/C/Ibad/Portable/Sublime Text/Data/Packages/User/JSON.sublime-settings",
@@ -294,8 +280,6 @@
 		"/C/Users/khanib/docker/repositories/searchbot/tunes_crawler.py",
 		"/C/Ibad/Portable/Sublime Text/Data/Packages/anaconda/Anaconda.sublime-settings",
 		"/C/Ibad/Portable/Sublime Text/Data/Packages/anaconda/README.md",
-		"/C/Users/khanib/docker/django/Dockerfile",
-		"/C/Users/khanib/docker/django/docker-compose.yml",
 		"/C/Users/khanib/docker/repositories/searchbot/docker-compose.yaml",
 		"/C/Ibad/Portable/Sublime Text/Data/Packages/Anaconda/Anaconda.sublime-settings",
 		"/C/Ibad/Portable/Sublime Text/Data/Packages/Default/Preferences.sublime-settings",
@@ -387,10 +371,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1070.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -419,7 +403,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
@@ -449,7 +433,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -472,6 +456,7 @@
 						"settings":
 						{
 							"git_savvy.file_path": "C:\\Users\\khanib\\docker\\django\\rango\\models.py",
+							"git_savvy.repo_path": "C:/Users/khanib/docker/django",
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
@@ -483,66 +468,6 @@
 				},
 				{
 					"buffer": 4,
-					"file": "docker-compose.yml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 439,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								439,
-								439
-							]
-						],
-						"settings":
-						{
-							"git_savvy.file_path": "C:\\Users\\khanib\\docker\\django\\docker-compose.yml",
-							"syntax": "Packages/YAML/YAML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "Dockerfile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 226,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_savvy.file_path": "C:\\Users\\khanib\\docker\\django\\Dockerfile",
-							"syntax": "Packages/Dockerfile Syntax Highlighting/Syntaxes/Dockerfile.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "rango/views.py",
 					"semi_transient": false,
 					"settings":
@@ -567,11 +492,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "rango/urls.py",
 					"semi_transient": false,
 					"settings":
@@ -597,11 +522,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"file": "tango_with_django/urls.py",
 					"semi_transient": false,
 					"settings":
@@ -626,7 +551,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]

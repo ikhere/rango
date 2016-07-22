@@ -1,2 +1,2 @@
-# rango
-Tango with Django tutorial
+# Rango
+A django tutorial powered by docker.
