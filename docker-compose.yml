@@ -5,7 +5,7 @@ services:
   web:
     build: .
     image: webapp
-    command: bash -c "sleep 3 && ./manage.py migrate && ./manage.py runserver 0.0.0.0:8000"
+    command: bash -c "./runserver.sh"
     volumes:
       - .:/code
     ports:
