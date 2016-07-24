@@ -20,7 +20,7 @@ python manage.py initadmin
 
 # Populate Rango database
 # NOTE: Disable once you've populated it
-python populate_rango.py
+# python populate_rango.py
 
 # Start django server on port 8000
 python manage.py runserver 0.0.0.0:8000
