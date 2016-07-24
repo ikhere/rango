@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PYTHONPATH=/code;$PYTHONPATH
+export PYTHONPATH=/code:$PYTHONPATH
 
 sleep 10	# Hack; will help web service to wait for db service.
 python manage.py migrate
